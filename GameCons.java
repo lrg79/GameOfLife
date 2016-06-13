@@ -39,7 +39,7 @@ public class GameCons extends JFrame {
                FileReader file = new FileReader("life100 (1).txt");
                 s = new Scanner(file);
  
-          } catch (FileNotFoundException e) {
+          } catch  (FileNotFoundException e) {
                // TODO Auto-generated catch block
                e.printStackTrace();
           }
